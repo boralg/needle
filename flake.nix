@@ -22,7 +22,7 @@
             toolchainPackages =
               fenixPkgs: crossFenixPkgs: with fenixPkgs; [
                 latest.rustfmt
-                stable.rust-src
+                latest.rust-src
               ];
           in
           [
