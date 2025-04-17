@@ -21,6 +21,8 @@
             buildFilePatterns = [ ".*/assets/.*" ];
             toolchainPackages =
               fenixPkgs: crossFenixPkgs: with fenixPkgs; [
+                latest.rustc
+                latest.cargo
                 latest.rustfmt
                 latest.rust-src
               ];
