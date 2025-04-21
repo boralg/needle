@@ -4,10 +4,9 @@ use glyphon::{
 };
 use sursface::app::AppState;
 use sursface::display::Display;
-use sursface::std::{clear, create_render_pipeline, create_shader, get_framebuffer};
 use sursface::wgpu::{
     self, CommandEncoderDescriptor, LoadOp, MultisampleState, Operations,
-    RenderPassColorAttachment, RenderPassDescriptor, RenderPipeline, TextureViewDescriptor,
+    RenderPassColorAttachment, RenderPassDescriptor, TextureViewDescriptor,
 };
 
 fn main() {
