@@ -109,6 +109,7 @@ impl AppState for State {
             )
             .unwrap();
 
+        // TODO: shaders?
         let frame = display.surface.get_current_texture().unwrap();
         let view = frame.texture.create_view(&TextureViewDescriptor::default());
         let mut encoder = display
