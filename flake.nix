@@ -1,5 +1,5 @@
 {
-  description = "needle";
+  description = "converge";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
